@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_scanner"
+        android:checkableBehavior="single">
+        <item android:title="@string/title_scanner">
+            <menu>
+                <item
+                    android:id="@+id/nav_camera"
+                    android:icon="@drawable/ic_baseline_camera_alt_24"
+                    android:title="BAR+QR" />
+            </menu>
+        </item>
+    </group>
+    <group
+        android:id="@+id/group_generators"
+        android:checkableBehavior="none"
+        >
+
+        <item android:title="@string/title_generators">
+            <menu>
+                <item
+                    android:id="@+id/nav_barcode"
+                    android:icon="@drawable/ic_barcode"
+                    android:title="BARcode" />
+                <item
+                    android:id="@+id/nav_qrcode"
+                    android:icon="@drawable/ic_qrcode"
+                    android:title="QRcode" />
+            </menu>
+        </item>
+
+    </group>
+
+        <group
+            android:id="@+id/group_settings"
+            android:checkableBehavior="none">
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Settings" />
+
+        </group>
+</menu>

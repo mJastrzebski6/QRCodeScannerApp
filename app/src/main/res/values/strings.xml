@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">qrCodeScanner</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">QR CODE AND BARCODE GENERATOR &amp; SCANNER</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_camera">Scanner</string>
+    <string name="menu_barcode">Barcode generator</string>
+    <string name="menu_qrcode">QRcode generator</string>
+    <string name="menu_settings">Settings</string>
+
+
+    <string name="title_scanner">SCANNER</string>
+    <string name="title_generators">GENERATORS</string>
+
+
+</resources>

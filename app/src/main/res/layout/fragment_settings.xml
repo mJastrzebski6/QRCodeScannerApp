@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.settings.SettingsFragment"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <Switch
+        android:id="@+id/color_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <EditText
+        android:hint="Podaj sciezke"
+        android:id="@+id/destination_et"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+        <Button
+            android:id="@+id/change_destination_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change save folder"/>
+
+    <EditText
+        android:hint="Podaj rozmiar"
+        android:id="@+id/size_et"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <Button
+        android:id="@+id/save_size_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zapisz"/>
+
+</LinearLayout>
